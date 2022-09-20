@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.DirectoryServices" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ABM.AppAutos.BE.Repositories\ABM.AppAutos.BE.Repositories.csproj" />
+    <ProjectReference Include="..\AppAutos.Models\ABM.AppAutos.BE.Models.csproj" />
+  </ItemGroup>
+
+</Project>

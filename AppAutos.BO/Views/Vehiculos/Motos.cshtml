@@ -1,0 +1,83 @@
+﻿@model IEnumerable<AppAutos.Models.Vehiculo>
+
+@{
+    ViewData["Title"] = "Motos";
+}
+
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col p-0 pb-2 border-bottom">
+            <h1 class="font-weight-lighter display-4 mb-5">Catálogo de <span class="font-weight-bold">Motos</span></h1>
+        </div>
+    </div>
+</div>
+
+
+<div class="bg-white text-body">
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <a asp-action="Create" class="btn bg-darkblue text-white font-weight-bold my-4">Agregar Vehiculo</a>
+
+                <table class="hover table-responsive-md table-bordered" id="">
+                    <thead>
+                        <tr>
+                            <th>Acciones</th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Modelo)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Marca)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Precio)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Kilometros)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Color)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Combustible)
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach( var item in Model )
+                        {
+                            <tr>
+                                <td>
+                                    <a class="mx-1" asp-action="Edit" asp-route-id="@item.Id"><i class="fa-solid fa-pen"></i></a>
+                                    <a class="mx-1" asp-action="Details" asp-route-id="@item.Id"><i class="fa-solid fa-eye"></i></a>
+                                    <a class="mx-1" asp-action="Delete" asp-route-id="@item.Id"><i class="fa-solid fa-trash-can text-danger"></i></a>
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Modelo)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Marca.Nombre)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Precio)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Kilometros)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Color.Nombre)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Combustible.Nombre)
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>

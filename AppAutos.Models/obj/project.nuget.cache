@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nBB0+ifPjYA71Ge7Hhhs7OSE3NVocZ9n/z8xaMRZDkOa0I/pOF4JJcfX+N2Ooemhvln5biRXbbDCpN7GiwNS/g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\spichel\\Documents\\.NET-SMS\\API\\AppAutos\\AppAutos.Models\\ABM.AppAutos.BE.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\spichel\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\spichel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,133 @@
+﻿@model IEnumerable<AppAutos.Models.Vehiculo>
+
+@{
+    ViewData["Title"] = "Motorium | Home";
+
+    //List<AppAutos.Models.Vehiculo> Autos = new List<AppAutos.Models.Vehiculo>();
+    //List<AppAutos.Models.Vehiculo> Motos = new List<AppAutos.Models.Vehiculo>();
+    //List<AppAutos.Models.Vehiculo> Cuatrimotos = new List<AppAutos.Models.Vehiculo>();
+
+    //foreach( var item in Model )
+    //{
+    //    if( item.Tipo.ToString().ToLower() == "auto" )
+    //    {
+    //        Autos.Add(item);
+    //    }
+    //    else if( item.Tipo.ToString().ToLower() == "moto" )
+    //    {
+    //        Autos.Add(item);
+    //    }
+    //    else if( item.Tipo.ToString().ToLower() == "cuatrimoto" )
+    //    {
+    //        Autos.Add(item);
+    //    }
+    //}
+}
+
+<link rel="stylesheet" href="~/css/home.css" />
+
+
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col p-0 pb-2 border-bottom">
+            <h1 class="font-weight-lighter display-4">WE ARE <span class="font-weight-bold">MOTORIUM</span></h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col mt-4 mb-5 h4 font-weight-light">
+            VEHÍCULOS EXCLUSIVOS
+        </div>
+    </div>
+    <div class="row bg-white mt-5">
+        <div class="col d-flex lista-marcas justify-content-center align-items-center  flex-wrap">
+            <img src="~/img/logo-audi.png" />
+            <img src="~/img/logo-bmw.png" />
+            <img src="~/img/logo-honda.png" />
+            <img src="~/img/logo-mercedes.png" />
+            <img src="~/img/logo-nissan.png" />
+            <img src="~/img/logo-toyota.png" />
+        </div>
+    </div>
+</div>
+
+
+<div class="bg-white">
+    <section>
+        <div class="container pt-5 ">
+            <h2 class=" text-dark-blue text-center h1 pt-5"><span class="font-weight-bolder">Autos</span> <span class="font-weight-light">Populares</span></h2>
+
+            <div class="row pt-5 mb-sm-2 ">
+                @foreach( var item in Model )
+                {
+                    if( item.Tipo.Nombre == "Auto" )
+                    {
+                        <div class="col-sm-10 col-md-5 col-lg mx-sm-auto mx-md-auto">
+
+                            <div class="card-contenedor my-5">
+                                <a class="mx-1 d-block" asp-controller="Vehiculos" asp-action="Details" asp-route-id="@item.Id">
+                                    <p class="precio">@Html.DisplayFor(modelItem => item.Precio)</p>
+                                    <h4 class="modelo">@Html.DisplayFor(modelItem => item.Modelo)</h4>
+                                    <img class="" src="~/img/img-coche.png" />
+                                    <p class="marca">@Html.DisplayFor(modelItem => item.Marca.Nombre)</p>
+                                </a>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+
+
+            <a class="link" asp-area="" asp-controller="Vehiculos" asp-action="Autos">Ver Todos</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="container pt-5">
+            <h2 class=" text-dark-blue text-center h2 pt-5"><span class="font-weight-bolder">Motos</span> <span class="font-weight-light">Populares</span></h2>
+            <div class="row pt-5 mb-sm-2">
+                @foreach( var item in Model )
+                {
+                    if( item.Tipo.Nombre == "Moto" )
+                    {
+                        <div class="col-sm-10 col-md-5 col-lg mx-sm-auto mx-md-auto">
+                            <div class="card-contenedor  my-5">
+                                <a class="mx-1 d-block" asp-controller="Vehiculos" asp-action="Details" asp-route-id="@item.Id">
+                                    <p class="precio">@Html.DisplayFor(modelItem => item.Precio)</p>
+                                    <h4 class="modelo">@Html.DisplayFor(modelItem => item.Modelo)</h4>
+                                    <img class="" src="~/img/img-moto.png" />
+                                    <p class="marca">@Html.DisplayFor(modelItem => item.Marca.Nombre)</p>
+                                </a>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+            <a class="link" asp-area="" asp-controller="Vehiculos" asp-action="Motos">Ver Todos</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="container pt-5">
+            <h2 class=" text-dark-blue text-center h1 pt-5"><span class="font-weight-bolder">Cuatrimotos</span> <span class="font-weight-light">Populares</span></h2>
+            <div class="row pt-5 mb-sm-2">
+                @foreach( var item in Model )
+                {
+                    if( item.Tipo.Nombre == "Cuatrimoto" )
+                    {
+                        <div class="col-sm-10 col-md-5 col-lg mx-sm-auto mx-md-auto">
+                            <div class="card-contenedor  my-5">
+                                <a class="mx-1 d-block" asp-controller="Vehiculos" asp-action="Details" asp-route-id="@item.Id">
+                                    <p class="precio">@Html.DisplayFor(modelItem => item.Precio)</p>
+                                    <h4 class="modelo">@Html.DisplayFor(modelItem => item.Modelo)</h4>
+                                    <img class="" src="~/img/img-cuatrimoto.png" />
+                                    <p class="marca">@Html.DisplayFor(modelItem => item.Marca.Nombre)</p>
+                                </a>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+            <a class="link" asp-area="" asp-controller="Vehiculos" asp-action="Cuatrimotos">Ver Todos</a>
+        </div>
+    </section>
+</div>   

@@ -1,0 +1,15 @@
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutosV2.BE.Authorization\obj\Debug\net5.0\ABM.AppAutosV2.BE.Authorization.csproj.AssemblyReference.cache
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutosV2.BE.Authorization\obj\Debug\net5.0\ABM.AppAutosV2.BE.Authorization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutosV2.BE.Authorization\obj\Debug\net5.0\ABM.AppAutosV2.BE.Authorization.AssemblyInfoInputs.cache
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutosV2.BE.Authorization\obj\Debug\net5.0\ABM.AppAutosV2.BE.Authorization.AssemblyInfo.cs
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutosV2.BE.Authorization\obj\Debug\net5.0\ABM.AppAutosV2.BE.Authorization.csproj.CoreCompileInputs.cache
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutosV2.BE.Authorization\bin\Debug\net5.0\ABM.AppAutosV2.BE.Authorization.deps.json
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutosV2.BE.Authorization\bin\Debug\net5.0\ABM.AppAutosV2.BE.Authorization.dll
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutosV2.BE.Authorization\bin\Debug\net5.0\ref\ABM.AppAutosV2.BE.Authorization.dll
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutosV2.BE.Authorization\bin\Debug\net5.0\ABM.AppAutosV2.BE.Authorization.pdb
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutosV2.BE.Authorization\bin\Debug\net5.0\ABM.AppAutos.BE.Models.dll
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutosV2.BE.Authorization\bin\Debug\net5.0\ABM.AppAutos.BE.Models.pdb
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutosV2.BE.Authorization\obj\Debug\net5.0\ABM.AppAutosV2.BE.Authorization.csproj.CopyComplete
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutosV2.BE.Authorization\obj\Debug\net5.0\ABM.AppAutosV2.BE.Authorization.dll
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutosV2.BE.Authorization\obj\Debug\net5.0\ref\ABM.AppAutosV2.BE.Authorization.dll
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutosV2.BE.Authorization\obj\Debug\net5.0\ABM.AppAutosV2.BE.Authorization.pdb

@@ -1,0 +1,17 @@
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutos.BE.Repositories\bin\Debug\net5.0\ABM.AppAutos.BE.Repositories.deps.json
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutos.BE.Repositories\bin\Debug\net5.0\ABM.AppAutos.BE.Repositories.dll
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutos.BE.Repositories\bin\Debug\net5.0\ref\ABM.AppAutos.BE.Repositories.dll
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutos.BE.Repositories\bin\Debug\net5.0\ABM.AppAutos.BE.Repositories.pdb
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutos.BE.Repositories\bin\Debug\net5.0\ABM.AppAutos.BE.DataAccess.dll
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutos.BE.Repositories\bin\Debug\net5.0\ABM.AppAutos.BE.Models.dll
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutos.BE.Repositories\bin\Debug\net5.0\ABM.AppAutos.BE.DataAccess.pdb
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutos.BE.Repositories\bin\Debug\net5.0\ABM.AppAutos.BE.Models.pdb
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutos.BE.Repositories\obj\Debug\net5.0\ABM.AppAutos.BE.Repositories.csproj.AssemblyReference.cache
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutos.BE.Repositories\obj\Debug\net5.0\ABM.AppAutos.BE.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutos.BE.Repositories\obj\Debug\net5.0\ABM.AppAutos.BE.Repositories.AssemblyInfoInputs.cache
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutos.BE.Repositories\obj\Debug\net5.0\ABM.AppAutos.BE.Repositories.AssemblyInfo.cs
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutos.BE.Repositories\obj\Debug\net5.0\ABM.AppAutos.BE.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutos.BE.Repositories\obj\Debug\net5.0\ABM.AppAutos.BE.Repositories.csproj.CopyComplete
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutos.BE.Repositories\obj\Debug\net5.0\ABM.AppAutos.BE.Repositories.dll
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutos.BE.Repositories\obj\Debug\net5.0\ref\ABM.AppAutos.BE.Repositories.dll
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\ABM.AppAutos.BE.Repositories\obj\Debug\net5.0\ABM.AppAutos.BE.Repositories.pdb

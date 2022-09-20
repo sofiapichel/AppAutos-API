@@ -1,0 +1,67 @@
+﻿@model AppAutos.Models.Vehiculo
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col p-0 pb-2 border-bottom">
+            <h1 class="font-weight-bold h1 mb-5 ">@Model.Marca.Nombre</h1>
+        </div>
+    </div>
+</div>
+
+<div class="bg-white text-body">
+    <div class="container pt-5 pb-4">
+        <div class="row d-flex justify-content-center align-items-center px-0">
+            <div class="col-lg-4">
+                <p class="text-dark-blue font-weight-bolder m-0">Combustible</p>
+                <p class="h3 font-weight-light">@Model.Combustible.Nombre</p>
+
+                <p class="text-dark-blue font-weight-bolder m-0">Seguro</p>
+                <p class="h3 font-weight-light">@Model.Seguro.Nombre</p>
+
+                <p class="text-dark-blue font-weight-bolder m-0">Año</p>
+                <p class="h3 font-weight-light">@Model.Anio</p>
+
+                <p class="text-dark-blue font-weight-bolder m-0">Estado</p>
+                <p class="h3 font-weight-light">@Model.Estado.Nombre - @Model.Kilometros Km</p>
+
+                <p class="text-dark-blue font-weight-bolder m-0">Potencia (CV)</p>
+                <p class="h3 font-weight-light">@Model.Potencia</p>
+
+                <p class="text-dark-blue font-weight-bolder m-0">Puertas</p>
+                <p class="h3 font-weight-light">@Model.Puertas</p>
+
+                <p class="text-dark-blue font-weight-bolder m-0">País</p>
+                <p class="h3 font-weight-light">@Model.Pais.Nombre</p>
+            </div>
+            <div class="col-lg-4 text-center">
+                <h2 class="font-weight-bolder text-dark-blue h4 mt-5 mt-lg-0">@Model.Modelo</h2>
+                <p class="font-weight-bold text h4 ">@Html.DisplayFor(modelItem => Model.Precio)</p>
+                <p class="font-weight-normal text h5 mb-5">@Model.Color.Nombre</p>
+                @if( Model.Tipo.Nombre == "Auto" )
+                {
+                    <img class="w-100" src="~/img/img-coche.png" />
+                }
+                else if( Model.Tipo.Nombre == "Moto" )
+                {
+                    <img class="w-100" src="~/img/img-moto.png" />
+                }
+                else if( Model.Tipo.Nombre == "Cuatrimoto" )
+                {
+                    <img class="w-100" src="~/img/img-cuatrimoto.png" />
+                }
+            </div>
+
+            <div class="col-12 d-flex justify-content-center pt-5">
+                <a class="btn px-5 py-2 bg-darkblue text-white" asp-action="Edit" asp-route-id="@Model.Id">Editar Vehículo</a>
+                <a class="btn px-5 py-2 bg-danger text-white ml-2" asp-action="Delete" asp-route-id="@Model.Id">Eliminar</a>
+            </div>
+        </div>
+    </div>
+
+    @*<a asp-action="Index">Back to List</a>*@
+
+</div>

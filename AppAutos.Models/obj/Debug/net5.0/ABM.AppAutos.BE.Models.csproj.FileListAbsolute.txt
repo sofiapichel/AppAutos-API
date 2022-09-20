@@ -1,0 +1,12 @@
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\AppAutos.Models\bin\Debug\net5.0\ABM.AppAutos.BE.Models.deps.json
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\AppAutos.Models\bin\Debug\net5.0\ABM.AppAutos.BE.Models.dll
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\AppAutos.Models\bin\Debug\net5.0\ref\ABM.AppAutos.BE.Models.dll
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\AppAutos.Models\bin\Debug\net5.0\ABM.AppAutos.BE.Models.pdb
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\AppAutos.Models\obj\Debug\net5.0\ABM.AppAutos.BE.Models.csproj.AssemblyReference.cache
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\AppAutos.Models\obj\Debug\net5.0\ABM.AppAutos.BE.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\AppAutos.Models\obj\Debug\net5.0\ABM.AppAutos.BE.Models.AssemblyInfoInputs.cache
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\AppAutos.Models\obj\Debug\net5.0\ABM.AppAutos.BE.Models.AssemblyInfo.cs
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\AppAutos.Models\obj\Debug\net5.0\ABM.AppAutos.BE.Models.csproj.CoreCompileInputs.cache
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\AppAutos.Models\obj\Debug\net5.0\ABM.AppAutos.BE.Models.dll
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\AppAutos.Models\obj\Debug\net5.0\ref\ABM.AppAutos.BE.Models.dll
+C:\Users\spichel\Documents\.NET-SMS\API\AppAutos\AppAutos.Models\obj\Debug\net5.0\ABM.AppAutos.BE.Models.pdb

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABM.AppAutos.BE.Models", "AppAutos.Models\ABM.AppAutos.BE.Models.csproj", "{84078E61-8C4A-438D-9C4B-53EB4D9D3D22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABM.AppAutos.BE.DataAccess", "AppAutos.DataAccess\ABM.AppAutos.BE.DataAccess.csproj", "{192B6958-7C79-44EA-881B-2370A71BD758}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABM.AppAutos.BE.Repositories", "ABM.AppAutos.BE.Repositories\ABM.AppAutos.BE.Repositories.csproj", "{8C1397FB-F509-4829-AD12-53C36298F73C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABM.AppAutos.BE.Services", "ABM.AppAutos.BE.Services\ABM.AppAutos.BE.Services.csproj", "{BFC2BC41-E2C8-4422-8BD5-D1E542EE14B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABM.AppAutosV2.BE.API", "ABM.AppAutosV2.BE.API\ABM.AppAutosV2.BE.API.csproj", "{77E57E08-842F-473E-9BE4-F7463A8F0F5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABM.AppAutosV2.BE.Authorization", "ABM.AppAutosV2.BE.Authorization\ABM.AppAutosV2.BE.Authorization.csproj", "{F0766805-E4F7-4114-9FB6-EDCB94A35852}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84078E61-8C4A-438D-9C4B-53EB4D9D3D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84078E61-8C4A-438D-9C4B-53EB4D9D3D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84078E61-8C4A-438D-9C4B-53EB4D9D3D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84078E61-8C4A-438D-9C4B-53EB4D9D3D22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{192B6958-7C79-44EA-881B-2370A71BD758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192B6958-7C79-44EA-881B-2370A71BD758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192B6958-7C79-44EA-881B-2370A71BD758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192B6958-7C79-44EA-881B-2370A71BD758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C1397FB-F509-4829-AD12-53C36298F73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1397FB-F509-4829-AD12-53C36298F73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C1397FB-F509-4829-AD12-53C36298F73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1397FB-F509-4829-AD12-53C36298F73C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC2BC41-E2C8-4422-8BD5-D1E542EE14B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC2BC41-E2C8-4422-8BD5-D1E542EE14B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC2BC41-E2C8-4422-8BD5-D1E542EE14B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC2BC41-E2C8-4422-8BD5-D1E542EE14B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E57E08-842F-473E-9BE4-F7463A8F0F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E57E08-842F-473E-9BE4-F7463A8F0F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E57E08-842F-473E-9BE4-F7463A8F0F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E57E08-842F-473E-9BE4-F7463A8F0F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0766805-E4F7-4114-9FB6-EDCB94A35852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0766805-E4F7-4114-9FB6-EDCB94A35852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0766805-E4F7-4114-9FB6-EDCB94A35852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0766805-E4F7-4114-9FB6-EDCB94A35852}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B6FE733-2D76-43D7-B240-DC1B2E1C7F65}
+	EndGlobalSection
+EndGlobal

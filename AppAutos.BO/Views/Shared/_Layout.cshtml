@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    @* JQuery *@
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    @* Bootstrap *@
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    @* DataTables *@
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+    @* Google Fonts *@
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    @* AOS *@
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body class="portada">
+    <ul class="menu-vertical d-sm-none">
+        <li class="">
+            <a class="" asp-area="" asp-controller="Vehiculos" asp-action="Index">Ver Catálogo</a>
+        </li>
+        <li class="">
+            <a class="" asp-area="" asp-controller="Vehiculos" asp-action="Autos">Autos</a>
+        </li>
+        <li class="">
+            <a class="" asp-area="" asp-controller="Vehiculos" asp-action="Motos">Motos</a>
+        </li>
+        <li class="">
+            <a class="" asp-area="" asp-controller="Vehiculos" asp-action="Cuatrimotos">Cuatrimotos</a>
+        </li>
+        <i class="fa-solid fa-xmark text-white d-sm-none m-4" id="btn-close-menu"></i>
+    </ul>
+    <header>
+        <nav class="navbar-principal">
+            <div class="logo-contenedor bg-darkblue px-4 py-2">
+                <i id="btn-menu" class="fa-solid fa-bars text-white d-sm-none ml-2"></i>
+                <a class="d-block" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img class="" src="~/img/logo.svg" />
+                </a>
+            </div>
+            <ul class="lista-links">
+                <li class="">
+                    <a class="" asp-area="" asp-controller="Vehiculos" asp-action="Index">Ver Catálogo</a>
+                </li>
+                <li class="">
+                    <a class="" asp-area="" asp-controller="Vehiculos" asp-action="Autos">Autos</a>
+                </li>
+                <li class="">
+                    <a class="" asp-area="" asp-controller="Vehiculos" asp-action="Motos">Motos</a>
+                </li>
+                <li class="">
+                    <a class="" asp-area="" asp-controller="Vehiculos" asp-action="Cuatrimotos">Cuatrimotos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main role="main">
+        @RenderBody()
+    </main>
+
+    <footer class="bg-darkblue pt-5 pb-5 pb-lg-1">
+
+        <div class="container">
+            <div class="row">
+                <div class="mx-auto col-8 col-sm-7 mb-5 col-md-6 m-lg-0 col-lg-4 ">
+                    <img class="mx-auto d-block w-75" src="~/img/logo.svg" />
+                </div>
+
+                <div class="mx-auto col-8 col-sm-7      col-md-6 m-lg-0 col-lg-4 ">
+                    <ul class="list-unstyled d-flex justify-content-between mx-auto col-8">
+                        <li>
+                            <img src="~/img/icon-facebook.svg" />
+                        </li>
+                        <li>
+                            <img src="~/img/icon-instagram.svg" />
+                        </li>
+                        <li>
+                            <img src="~/img/icon-linkedin.svg" />
+                        </li>
+                        <li>
+                            <img src="~/img/icon-twitter.svg" />
+                        </li>
+                    </ul>
+                    <a class="footer-link" href="#">Términos y Condiciones</a>
+                    <a class="footer-link" href="#">Políticas de Privacidad</a>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    @* DataTables *@
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+    @* AOS *@
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    @* FontAwesome *@
+    <script src="https://kit.fontawesome.com/a5e9872c10.js" crossorigin="anonymous"></script>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
